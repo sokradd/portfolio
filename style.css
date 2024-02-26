@@ -1,0 +1,62 @@
+html {
+    background-color: #474E68;
+}
+body {  
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+}
+.text   {
+    font-family: lato;
+    color:whitesmoke
+}
+.main-div   {
+flex: 1;
+}
+.name   {
+    float:left;
+    font-size: 2rem;
+    padding-top: 250px;
+    padding-left: 300px;
+}
+.head-text  {
+font-size: 3.5rem;
+padding-left: 100px;
+}
+.selfie {
+    width: 500px;
+    height: 600px;
+    position: relative;
+    float: right;
+    border-radius: 20%;
+    right: 100px
+}
+.middle-text {
+    font-size: 2rem;
+    text-align: center;
+}
+.middle-div{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.first-work {
+    float: left;
+}
+.second-work {
+    float: right;
+}
+.lock{
+ width: 300px;
+ height: 200px;
+ border-radius: 20%;
+}
+.footer {
+    float:right;
+    padding-right: 50px;
+    padding-top: 50px;
+    clear:both;
+}
+@media (max-width:680px) { 
+    /* Dodelat!!! */
+    
+}
